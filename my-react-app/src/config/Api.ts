@@ -2,6 +2,7 @@ import axios from "axios";
 
 export const endpoints = {
     "books": "/books/",
+    "book": (slug:string) => `/books/${slug}`,
     "authors": "/authors/",
     "categories": "/categories/"
 }
