@@ -22,7 +22,7 @@ const BookDetail = () => {
         loadBook()
     },[slug])
     return (
-        <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+        <div style={{display:'flex', justifyContent:'center', alignItems:'center',marginTop:'-30px'}}>
             <RecipeReviewCard props={book} />
         </div>
     )
